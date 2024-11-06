@@ -1,0 +1,117 @@
+/* Base Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fbeddd;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #f7b830;
+  letter-spacing: 1.5px;
+  margin: 10px 0;
+  font-family: 'Arial Black', sans-serif;
+  text-transform: uppercase;
+}
+
+.tagline {
+  font-size: 1.3em;
+  color: #343b42;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+/* Menu Container */
+.pizza-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/* Pizza Card */
+.pizza {
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  text-align: left;
+  border-top: 4px solid #d35400;
+  transition: transform 0.3s ease;
+}
+
+.pizza:hover {
+  transform: scale(1.05);
+}
+
+.pizza img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.pizza h2 {
+  font-size: 1.3em;
+  color: #2c3a47;
+  margin: 10px 0;
+}
+
+.pizza p {
+  font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Ingredients */
+.pizza .ingredients {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Price Styling */
+.pizza .price {
+  font-size: 1.2em;
+  color: #d35400;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+footer button {
+  background-color: #d35400;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+footer button:hover {
+  background-color: #e67e22;
+}
+
+
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 40 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 /52 / 62 / 74 / 86 / 98
+*/
